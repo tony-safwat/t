@@ -1,0 +1,34 @@
+!pip install sorting
+import sorting
+
+
+
+
+data = [1 , 8 , 3 , 5 , 6 , 9 ,2 , 4]
+res= sorting.selection(data)
+print('selection :'     ,res  )
+
+
+
+data = [1 , 8 , 3 , 5 , 6 , 9 ,2 , 4]
+res= sorting.merge(data)
+print('merge :'     ,res  )
+
+
+
+
+data = [1 , 8 , 3 , 5 , 6 , 9 ,2 , 4]
+res= sorting.bubble(data)
+print('bubble :'     ,res  )
+
+
+
+
+data = [1 , 8 , 3 , 5 , 6 , 9 ,2 , 4]
+res= sorting.quick(data)
+print('quick :'     ,res  )
+
+
+
+
+Yousef Amr 
